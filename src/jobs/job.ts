@@ -1,6 +1,6 @@
 export interface Job {
   name: string;
-  log: boolean;
+    log: boolean;
   schedule: string;
   run(): Promise<void>;
 }
